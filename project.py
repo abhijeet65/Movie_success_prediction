@@ -95,8 +95,9 @@ plt.pie(
 
 print("Positive comments total = ",positive)
 print("Negative comments total = ",negative)
-print("Negative comments total = ",neutral)
+print("Neutral comments total = ",neutral)
 
 
 plt.title("Sentiment of {} Tweets about {}".format(number, query))
 plt.show()
+#return render_template('chart.html',data,set=zip(values, labels, colors),)
